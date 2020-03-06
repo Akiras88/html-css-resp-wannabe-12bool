@@ -12,7 +12,7 @@ body {
 img {
   height: 200px;
 }
-.why {
+ .why {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px;
@@ -36,20 +36,4 @@ h3 {
 /* style main */
 .grey {
   background-color: #f9f9f9;
-}
-
-/* responsive */
-@media all and (min-width: 769px) and (max-width: 1199px){
-  [class^="col-"] {
-    float: none;
-    width: 100%;
-  }
-}
-
-@media all and (max-width: 768px) {
-  [class^="col-"] {
-    float: none;
-    width: 100%;
-    margin-bottom: 100px;
-  }
 }
